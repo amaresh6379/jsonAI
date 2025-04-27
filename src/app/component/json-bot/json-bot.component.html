@@ -1,25 +1,22 @@
 <div class="json-bot-container">
-  <h1 class="heading">Family Structure JSON Generator AI</h1>
+  <h1 class="heading">Family Structure JSON Creator AI</h1>
 </div>
 
-<span class="sub-heading">Enter a simple family description below. We'll instantly convert it into a structured JSON
-  format for you.</span>
+<p class="sub-heading">
+  Enter a simple family sentence below. We'll convert it into a beautifully structured JSON format.
+</p>
 
 <div class="message-container">
   <div class="input-container">
-    <textarea type="text" name="" id="" placeholder="Describe your family structure here..." [(ngModel)]="inputText"
-      (keydown.enter)="sendAnswer()" class="input-style"></textarea>
+    <textarea class="input-style" [(ngModel)]="inputText" placeholder="Type your family structure sentence..."
+      (keydown.enter)="sendAnswer()"></textarea>
     <button class="send-button" (click)="sendAnswer()">Generate JSON</button>
   </div>
 </div>
 
-<div>
-  <div class="output-heading">
-    <h2>Generated JSON Output</h2>
-  </div>
+<div class="output-section">
+  <h2 class="output-heading">Generated JSON Output</h2>
   <div class="output-container">
-    <div class="output-text">
-      <textarea type="json" class="json-box" readonly>{{outputText}}</textarea>
-    </div>
+    <textarea readonly class="json-box">{{ outputText }}</textarea>
   </div>
 </div>
