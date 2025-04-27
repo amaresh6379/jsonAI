@@ -1,0 +1,79 @@
+.message-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 30px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #0000001a;
+
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.input-style {
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.send-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 20px
+}
+
+.json-box {
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 5px;
+  height: 300px;
+}
+
+.output-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.output-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 30px;
+  background-color: white;
+  border: 1px solid #ddd;
+  /* border-radius: 8px; */
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.json-bot-container {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  color: #005374;
+  margin-bottom: 40px;
+
+}
+
+.sub-heading {
+  color: #005374;
+  font-size: 16px;
+  margin: 40px;
+
+}
